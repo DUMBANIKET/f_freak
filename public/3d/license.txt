@@ -1,0 +1,11 @@
+Model Information:
+* title:	NeoMetrix Bodybuilder Scan Data Mm Decimated
+* source:	https://sketchfab.com/3d-models/neometrix-bodybuilder-scan-data-mm-decimated-e7ac26e82e3044eb9502a66fc3534a3b
+* author:	Dan Perreault (https://sketchfab.com/neometrixtech)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NeoMetrix Bodybuilder Scan Data Mm Decimated" (https://sketchfab.com/3d-models/neometrix-bodybuilder-scan-data-mm-decimated-e7ac26e82e3044eb9502a66fc3534a3b) by Dan Perreault (https://sketchfab.com/neometrixtech) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
