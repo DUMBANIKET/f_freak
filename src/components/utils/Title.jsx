@@ -4,9 +4,9 @@ export default function Title() {
   return (
     <>
     
-<div class="bg-white dark:bg-black ">
+<div class=" bg-black ">
     <div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-        <h2 class="text-5xl font-extrabold text-black dark:text-white sm:text-5xl">
+        <h2 class="text-5xl font-extrabold text-white sm:text-5xl">
             <span class="block">
                 Want to get Fit ?
             </span>

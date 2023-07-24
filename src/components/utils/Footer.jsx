@@ -12,7 +12,7 @@ export default function Footer() {
   
 
 <Wrapper>
-<footer className="bg-white dark:bg-white/5">
+<footer className=" bg-white/5">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="lg:flex lg:items-start lg:gap-8">
       <div className="text-teal-600 dark:text-teal-300">
@@ -34,11 +34,11 @@ export default function Footer() {
       >
         <div className="col-span-2">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+            <h2 className="text-2xl font-bold text-white">
               Get the latest news!
             </h2>
 
-            <p className="mt-4 text-gray-500 dark:text-gray-400">
+            <p className="mt-4 text-gray-400">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
               cupiditate quae nam molestias.
             </p>
@@ -56,11 +56,11 @@ export default function Footer() {
                 type="email"
                 id="UserEmail"
                 placeholder="john@rhcp.com"
-                className="w-full border-none focus:border-transparent focus:ring-transparent dark:bg-black/5 dark:text-white sm:text-sm"
+                className="w-full border-none focus:border-transparent focus:ring-transparent bg-black/5 sm:text-sm"
               />
 
               <button
-                className="mt-1 w-full dark:text-black bg-white px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-white sm:mt-0 sm:w-auto sm:shrink-0"
+                className="mt-1 w-full  bg-white px-6 py-3 text-sm font-bold uppercase tracking-wide text-black transition-none  sm:mt-0 sm:w-auto sm:shrink-0"
               >
                 Sign Up
               </button>
@@ -69,13 +69,13 @@ export default function Footer() {
         </div>
 
         <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900 dark:text-white">Services</p>
+          <p className="font-medium text-white">Services</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
               <a
                 href="#"
-                className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                className=" transition hover:opacity-75 text-gray-200"
               >
                 1on1 Coaching
               </a>
@@ -84,7 +84,7 @@ export default function Footer() {
             <li>
               <a
                 href="#"
-                className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                className="transition hover:opacity-75 text-gray-200"
               >
                 Company Review
               </a>
@@ -93,7 +93,7 @@ export default function Footer() {
             <li>
               <a
                 href="#"
-                className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                className=" transition hover:opacity-75 text-gray-200"
               >
                 Accounts Review
               </a>
@@ -102,7 +102,7 @@ export default function Footer() {
             <li>
               <a
                 href="#"
-                className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                className=" transition hover:opacity-75 text-gray-200"
               >
                 HR Consulting
               </a>
@@ -111,7 +111,7 @@ export default function Footer() {
             <li>
               <a
                 href="#"
-                className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                className=" transition hover:opacity-75 text-gray-200"
               >
                 SEO Optimisation
               </a>
@@ -120,7 +120,7 @@ export default function Footer() {
         </div>
 
         <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900 dark:text-white">Company</p>
+          <p className="font-medium  text-white">Company</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>

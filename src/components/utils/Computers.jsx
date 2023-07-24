@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
-        position={[-20, 50, 0]}
+        position={[-20, 10, 0]}
         angle={0}
         penumbra={1}
         intensity={1}
@@ -22,8 +22,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 4 : 3.75}
-        position={isMobile ? [0, -0.25, -0] : [0, -0.25, -1.5]}
+        scale={isMobile ? 0.70: 0.70}
+        position={isMobile ? [0, -179.25, -0] : [0, -179.25, -0.5]}
         rotation={[-0.00, 1.0, -0.0]}
       />
     </mesh>
@@ -35,6 +35,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
+    
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
     // Set the initial value of the `isMobile` state variable
@@ -59,12 +60,14 @@ const ComputersCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [900, 18, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense >
         <OrbitControls
           enableZoom={false}
+          enableRotate={true}
+          autoRotate={true}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />

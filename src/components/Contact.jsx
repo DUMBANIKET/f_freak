@@ -44,6 +44,7 @@ export const Contact = () => {
         <button type='submit'><b>Submit</b></button>
     </form>
 </ContactFormBox> */}
+
 <Form/>
 </center></Con>
     </>

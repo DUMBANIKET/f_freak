@@ -3,9 +3,11 @@ import styled from 'styled-components'
 // import { Navbar } from './utils/Navbar'
 import Title from './utils/Title'
 import Builder from './utils/Builder'
+import ComputersCanvas from './utils/Computers'
+
 
 const Section=styled.div`
-
+height: 50vh;
 
 `
 
@@ -40,13 +42,13 @@ margin-bottom: 80px;
 export const Hero = () => {
   return (
     <>
-    <Section>
+  
 <Circle/>
 
-    </Section> <center>
-      <Builder/>
+     <center>
+     <Section> <ComputersCanvas/></Section>
    <Title/>
-   
+
     <Videoplayer>
 
 </Videoplayer>
